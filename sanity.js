@@ -4,7 +4,7 @@ import { createCurrentUserHook } from 'next-sanity'
 
 export const config = {
   projectId: 'vt85il9r',
-  dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || 'production',
+  dataset: 'production',
   apiVersion: '2021-03-25',
   useCdn: process.env.NODE_ENV === 'production',
 }
